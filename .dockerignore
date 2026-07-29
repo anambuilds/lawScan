@@ -1,0 +1,64 @@
+# ----------------- Python -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.db
+
+# ----------------- Virtual environments -----------------
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ----------------- IDE -----------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----------------- OS -----------------
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# ----------------- Git -----------------
+.git/
+.gitignore
+
+# ----------------- Docker -----------------
+docker-compose*.yml
+
+# ----------------- Docs -----------------
+README.md
+*.md
+
+# ----------------- Logs -----------------
+*.log
+logs/
+
+# ----------------- Temporary files -----------------
+tmp/
+temp/
+*.tmp
+
+# ----------------- Google Cloud credentials -----------------
+# Ignore all json keys, allow only legal-tts-key.json
+*.json
+!legal-tts-key.json
+
+# ----------------- Tests -----------------
+tests/
+*_test.py
+test_*.py
